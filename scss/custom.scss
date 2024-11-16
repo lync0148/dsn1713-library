@@ -1,0 +1,9 @@
+@import 'animate.css';
+
+.section-title{
+    @extend .animate__animated;
+    @extend .animate__fadeInUp;
+    // --animate-duration: 2s;
+    // --animate-delay: 0.5s;
+    // --animate-repeat: 2;
+  }
