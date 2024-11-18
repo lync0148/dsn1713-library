@@ -1,9 +1,28 @@
 @import 'animate.css';
 
-.section-title{
+.animation-one{
     @extend .animate__animated;
     @extend .animate__fadeInUp;
     // --animate-duration: 2s;
     // --animate-delay: 0.5s;
     // --animate-repeat: 2;
   }
+// I used the Fade In Up animation to animate my section titles as well as their descriptions to help give more visual interest. I wanted something that would grab the viewers attention more since they are the more attention-grabbing pieces of text
+
+
+.animation-two{
+  @extend .animate__animated;
+  @extend .animate__zoomIn;
+}
+// I used the Zoom In animation to animate the three pictures in the "how it works" section. I still wanted to give visual interest, but still set it apart from the rest of the page. I chose the more subdued animation of zooming in becayuse seeing as they are just illustrations, they support the text and provide context to it. 
+.animation-three{
+  @extend .animate__animated;
+  @extend .animate__fadeIn;
+}
+// I chose the Fade In feature animation for the photographs for much of the same reasoning as the 'Zoom In' feayure, but i wanted something even more smoother and subdued, seeing as how in the "Smarter way to Eat Healthy" section as well as the "Customer testimonials section", they were larger graphics that required a smoother transition.
+.animation-four{
+  @extend .animate__animated;
+  @extend .animate__tada;
+}
+// I decided to go with the "Tada" animation for my buttons, to help drive the viewers attention to the call to action, which is making a purchase. I wanted to do use a different animation than what I have already done, to help drive the viewers eyes there. 
+
